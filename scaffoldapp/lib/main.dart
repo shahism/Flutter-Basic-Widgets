@@ -24,10 +24,10 @@ void main() {
 
   // * better comments extension!
   // ? sawaal mention krne k liay
-  // * koi khas baat
-  // ! tanbeeh k liay : gham e judaye main
-  //!  jaam tou bht piayee hongay!
+  // * koi khas baat!
   // 
+  // ! tanbeeh k liay : gham e judaye main
+  //!  jaam tou bht piayee hongay
   // this is a normal comment 
   // 
 }
