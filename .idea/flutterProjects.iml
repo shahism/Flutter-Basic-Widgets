@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/scaffoldapp/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/scaffoldapp/build" />
       <excludeFolder url="file://$MODULE_DIR$/scaffoldapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/learningapp1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/learningapp1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/learningapp1/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/im_shah app/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/im_shah app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/im_shah app/build" />
