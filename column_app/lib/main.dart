@@ -14,8 +14,30 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
             title: const Text('Saad Ibne Abi Waqas RA'),
             backgroundColor: Colors.lightGreen),
+
+        //one thing is important k nesting jitni merzi krni chaho krsktay ho!
+        //  aik column main rows aaskte hain aik row main columns aasktay hain !
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          // column ka main axis is vertical aur cross axis is horizontal
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            Container(
+              color: Colors.blue,
+              padding: EdgeInsets.all(30.0),
+              child: Text('col-1'),
+            ),
+            Container(
+              color: Colors.pinkAccent,
+              padding: EdgeInsets.all(40.0),
+              child: Text('col-2'),
+            ),
+            Container(
+              color: Colors.greenAccent[700],
+              padding: EdgeInsets.all(50.0),
+              child: Text('col-3'),
+            )
+          ],
 
         )
       ),
@@ -24,7 +46,3 @@ class MyApp extends StatelessWidget {
 }
 
 
-
-
-//pehlay row widget dena hai phir uski main aur cross axis alignment deni hai phir
-// children property deni hai jo <widgets>[] (yani widgets ki list legi!)
