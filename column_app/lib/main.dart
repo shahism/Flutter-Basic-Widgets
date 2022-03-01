@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
             title: const Text('Saad Ibne Abi Waqas RA'),
             backgroundColor: Colors.lightGreen),
 
-        //one thing is important k nesting jitni merzi krni chaho krsktay ho!
+        //!one thing is important k nesting jitni merzi krni chaho krsktay ho!
         //  aik column main rows aaskte hain aik row main columns aasktay hain !
         body: Column(
           // column ka main axis is vertical aur cross axis is horizontal
@@ -38,7 +38,6 @@ class MyApp extends StatelessWidget {
               child: Text('col-3'),
             )
           ],
-
         )
       ),
     );
