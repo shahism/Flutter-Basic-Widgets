@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   List<Quotes> quotes = [
     Quotes(author: "Wasif Ali Wasif", quote: "Talab Sadiq uski hoti hai jisse nawazna ho"),
-    Quotes(author: "Shakespeare", quote: "All that glitters is not gold"),
+    Quotes(author: "Shakespeare", quote: "There is divinity that shapes our ends"),
     Quotes(author: "Ashfaq Ahmed", quote: "Insan jo bantta hai Allah usse wo aur deta hai phir chahay wo dolat ho izzat ho ya asaanian!")
   ];
   // Quotes class banaye jismay quote hamara widget bn gya taqreebn.
