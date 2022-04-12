@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Container(
-              color: Colors.blue,
+              color: Color.fromARGB(255, 52, 133, 198),
               padding: EdgeInsets.all(30.0),
               child: Text('col-1'),
             ),

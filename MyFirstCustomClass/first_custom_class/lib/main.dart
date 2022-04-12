@@ -43,9 +43,12 @@ class _MyAppState extends State<MyApp> {
           quotes.map((quote) => ShahCard(
                   quote: quote,
                   delete: () {
-                    setState(() {
+                    if (mounted(){
+                       setState() {
                       quotes.remove(quote);
                     });
+                    }
+                   
                   }))
               .toList(),
         ),

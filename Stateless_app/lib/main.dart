@@ -6,8 +6,8 @@ void main() {
 
 class MyApp extends StatelessWidget {
   //stateless widget support krta hai hot reload ko!
-  //isko bananay k liay stless likh kr enter karen tou pura template return hojayega
-  const MyApp({Key? key}) : super(key: key);
+  //isko bananay k liay stless likh kr enter karen tou pura template return hojayega  
+  const MyApp({Key? key}) : super(key: key); //yeh line constructor hai!
 
   @override
   Widget build(BuildContext context) {

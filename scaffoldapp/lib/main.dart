@@ -5,11 +5,11 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("خیمہ افلاک کا استادہ اسی نام سے ہے 
+          title: const Text("""خیمہ افلاک کا استادہ اسی نام سے ہے 
 نبضِ ہستی تپش آمادہ اسی نام سے ہے 
-~ اقبال لاہوری"),
+~ اقبال لاہوری"""),
           ),
-        body: Center(
+        body: const Center(
           child:Image(
             image: AssetImage('images/ghumbadekhazra.jpeg'),
             ) ,

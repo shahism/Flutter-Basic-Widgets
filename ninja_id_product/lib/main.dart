@@ -16,7 +16,7 @@ class NinjaApp extends StatelessWidget {
         title: Text("Flutter ID"),
         centerTitle: true,
         backgroundColor: Colors.grey[850],
-        //elevation 0.0 means the appbar will not look elevated then the body
+        //elevation 0.0 means the appbar will not look elevated than the body
         elevation: 0.0,
       ),
       body: Padding(
