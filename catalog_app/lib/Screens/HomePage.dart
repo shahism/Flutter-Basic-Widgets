@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
       ),
       body: Container(
         child: const Center(
-          child: Text("Building Catalog jj App"),
+          child: Text("Building Catalog App"),
         ),
       ),
       // One Drawer like slider for menu navigation

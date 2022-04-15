@@ -1,12 +1,17 @@
 import 'package:catalog_app/Utils/myRoutes.dart';
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget {
+class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
 
   @override
+  State<Login> createState() => _LoginState();
+}
+
+class _LoginState extends State<Login> {
+  String username = "";
+  @override
   Widget build(BuildContext context) {
-    // return SingleChildScrollView(
     return Material(
       color: Colors.white,
       child: SingleChildScrollView(
@@ -20,7 +25,7 @@ class Login extends StatelessWidget {
             height: 30.0,
           ),
           Text(
-            "Welcome to RaviCom",
+            "Welcome $username!",
             style: TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.w900,
@@ -32,18 +37,23 @@ class Login extends StatelessWidget {
             child: Column(
               children: [
                 TextFormField(
-                  decoration: const InputDecoration(
-                    hintText: "Enter Username",
-                    labelText: "Username",
-                  ),
-                ),
+                    decoration: const InputDecoration(
+                      hintText: "Enter Username",
+                      labelText: "Username",
+                    ),
+                    onChanged: (value) {
+                      username = value;
+                      setState(() {}); // by calling this the build function is directly called!
+                    },
+                    ),
+
                 TextFormField(
                   obscureText: true,
                   decoration: const InputDecoration(
                     hintText: "Enter Password",
                     labelText: "Password",
                   ),
-                )
+                ),
               ],
             ),
           ),
