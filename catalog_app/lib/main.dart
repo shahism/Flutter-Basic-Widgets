@@ -21,6 +21,8 @@ void main() {
     // yeh function anonymous function hai
     // q k is function ka koi name nhi hai.
 
+// jitni baar bhi app kholi jayegi yeh page hi khulega!
+    initialRoute:MyRoutes.homeRoute,
     routes: {
       "/": (context) => Login(),
       MyRoutes.homeRoute: (context) => Home(),
