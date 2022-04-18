@@ -15,7 +15,7 @@ class _LoginState extends State<Login> {
   final _formKey = GlobalKey<FormState>();
 
   onMove(BuildContext context) async {
-    if(_formKey.currentState!.validate()){
+    if (_formKey.currentState!.validate()) {
       setState(() {
         clickedButton = true;
       });
@@ -27,7 +27,6 @@ class _LoginState extends State<Login> {
         clickedButton = false;
       });
     }
-    
   }
 
   @override
@@ -85,7 +84,7 @@ class _LoginState extends State<Login> {
                       if (value!.isEmpty) {
                         return "Password de bhai!";
                       }
-                      if (value!.length < 6) {
+                      if (value.length < 6) {
                         return "Password thora theek de bhai!";
                       }
                       return null;

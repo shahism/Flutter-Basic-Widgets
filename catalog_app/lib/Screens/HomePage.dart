@@ -1,4 +1,6 @@
+import 'package:catalog_app/MyDrawer.dart';
 import 'package:flutter/material.dart';
+
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -16,7 +18,7 @@ class Home extends StatelessWidget {
         ),
       ),
       // One Drawer like slider for menu navigation
-      drawer: const Drawer(backgroundColor: Color.fromARGB(255, 99, 20, 217)),
+      drawer: MyDrawer(),
     );
   }
 }
