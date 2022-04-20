@@ -9,8 +9,14 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Catalog App RaviCom"),
-        backgroundColor: const Color.fromARGB(255, 130, 99, 19),
+        title: const Text("Pakistan" ,
+        style:  TextStyle(
+          color: Colors.black,
+          fontSize: 18.0
+        ),
+        ),
+        backgroundColor: Colors.white,
+        centerTitle: true,
       ),
       body: Container(
         child: const Center(
