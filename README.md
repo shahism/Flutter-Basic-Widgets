@@ -2,7 +2,7 @@
 
 ## when it comes to Flutter, Building beautiful User interaces is not hectic at all!
 
-## UI contains Building Layouts , adding interactivity, Using Assets (images , videos , fonts etc) , Noavigtion and routing , Animations and Advance UI shortcuts.
+## UI contains Building Layouts , adding interactivity, Using Assets (images , videos , fonts etc) , Navigtion and Routing , Animations and Advance UI shortcuts.
 
 ---
 
