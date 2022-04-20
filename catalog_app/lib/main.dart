@@ -5,15 +5,22 @@ import 'Screens/LoginPage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(
+    MaterialApp(
     themeMode: ThemeMode.dark,
     theme: ThemeData(
-      primarySwatch: Colors.blue,
-      fontFamily: GoogleFonts.zenKakuGothicAntique().fontFamily,
-    ),
+        primarySwatch: Colors.blue,
+        fontFamily: GoogleFonts.zenKakuGothicAntique().fontFamily,
+        // yeh tamaam appBars k liay hoga
+        appBarTheme: AppBarTheme(
+          color: Colors.white,
+          elevation: 0.0,
+          titleTextStyle: TextStyle(
+            color: Colors.black,
+          ),
+        )),
     darkTheme: ThemeData(brightness: Brightness.light),
     debugShowCheckedModeBanner: false,
-
     initialRoute: MyRoutes.homeRoute,
     routes: {
       "/": (context) => Login(),
