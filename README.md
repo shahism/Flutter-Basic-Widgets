@@ -14,13 +14,13 @@
 
 # Stateless Widget
 
-- the UI widget whose state is not changed
+- The UI widget whose state is not changed
 - Mostly Used for Composition i.e building UI Blocks
 - It supports Hot reload
 
 # Statefull Widget
 
-- Te UI widget whose state is changed
+- The UI widget whose state is changed
 - Mostly used in Actual Functioning App
 - It supports hot restart
 
