@@ -1,0 +1,4 @@
+flutter_native_splash:
+  background_image: "Assets/gcu_splash.png"
+  image: "Assets/gcu.png"
+
